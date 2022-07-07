@@ -1,3 +1,5 @@
+/*this project is created by """SAGAR THORAT"""*/
+
 from cgi import test
 from tkinter import *
 import cv2
@@ -26,10 +28,10 @@ def getvals():
             result = False
         videoCaptureObject.release()
         cv2.destroyAllWindows()
-        EMAIL_ADDRESS = 'sagarthorattrojan@gmail.com'
-        EMAIL_PASSWORD = 'Kevin$123'
+        EMAIL_ADDRESS = 'yourmail@gmail.com'
+        EMAIL_PASSWORD = 'password of your mail'
 
-        contacts = ['sagarthorat01700@gmail.com', 'vaishnavidhole2000@gmail.com ','nanavarea77@gmail.com','adityadkashid@coep.sveri.ac.in']
+        contacts = ['usermail@gmail.com']
 
         msg = EmailMessage()
         msg['Subject'] = 'Sycurity Alert!'
